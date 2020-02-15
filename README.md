@@ -13,7 +13,17 @@ Source code for the accompanying tutorial found here: https://hackersandslackers
 
 ## Getting Started
 
-Installation is recommended with Pipenv:
+Installation is recommended with Poetry:
+
+```shell
+$ git clone https://github.com/hackersandslackers/redis-python-tutorial.git
+$ cd redis-python-tutorial
+$ poetry shell
+$ poetry install
+$ poetry run
+```
+
+With Pipenv:
 
 ```shell
 $ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
