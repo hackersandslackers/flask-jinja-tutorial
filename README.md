@@ -16,7 +16,7 @@ Source code for the accompanying tutorial found here: https://hackersandslackers
 Installation is recommended with Poetry:
 
 ```shell
-$ git clone https://github.com/hackersandslackers/redis-python-tutorial.git
+$ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
 $ cd flask-jinja-tutorial
 $ poetry shell
 $ poetry install
