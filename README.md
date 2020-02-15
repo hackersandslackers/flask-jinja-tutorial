@@ -17,7 +17,7 @@ Installation is recommended with Poetry:
 
 ```shell
 $ git clone https://github.com/hackersandslackers/redis-python-tutorial.git
-$ cd redis-python-tutorial
+$ cd flask-jinja-tutorial
 $ poetry shell
 $ poetry install
 $ poetry run
