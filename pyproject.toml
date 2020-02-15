@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "flask_jinja_tutorial"
+version = "0.1.0"
+description = "Build smarter page templates with Flask and Jinja."
+authors = ["Todd Birchard <toddbirchard@gmail.com>"]
+readme = "README.md"
+homepage = "https://hackersandslackers.com/flask-page-templates-jinja/"
+repository = "https://github.com/hackersandslackers/flask-jinja-tutorial/"
+keywords = ["Flask", "Jinja2", "Jinja", "Templating", "Page Templates"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+run = "wsgi:app"
+
+[tool.poetry.urls]
+issues = "https://github.com/hackersandslackers/flask-jinja-tutorial/issues"
