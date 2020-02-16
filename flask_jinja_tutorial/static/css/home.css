@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    margin: 0;
+    padding: 30px 50px;
+    background: #e8e8e8;
+}
+
+nav a {
+    margin-right: 30px;
+    color: #597a96;
+    text-decoration: none;
+
+
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    margin-top: 0;
+}

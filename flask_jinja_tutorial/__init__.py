@@ -1,4 +1,4 @@
-"""Basic Flask Application."""
+"""Initialize Flask Application."""
 from flask import Flask
 
 
