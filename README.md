@@ -9,7 +9,7 @@
 
 ![Flask Jinja Tutorial](https://storage.googleapis.com/hackersandslackers-cdn/2019/02/jinja@2x.jpg)
 
-Source code for the accompanying tutorial found here: https://hackersandslackers.com/flask-page-templates-jinja/
+Source code for the accompanying tutorial found here: https://hackersandslackers.com/flask-jinja-templates/
 
 ## Getting Started
 
