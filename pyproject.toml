@@ -6,11 +6,17 @@ authors = ["Todd Birchard <toddbirchard@gmail.com>"]
 readme = "README.md"
 homepage = "https://hackersandslackers.com/flask-page-templates-jinja/"
 repository = "https://github.com/hackersandslackers/flask-jinja-tutorial/"
-keywords = ["Flask", "Jinja2", "Jinja", "Templating", "Page Templates"]
+keywords = [
+    "Flask",
+    "Jinja2",
+    "Jinja",
+    "Templating",
+    "Page Templates"
+]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-flask = "^1.1.1"
+python = "^3.8"
+flask = "*"
 
 [tool.poetry.dev-dependencies]
 

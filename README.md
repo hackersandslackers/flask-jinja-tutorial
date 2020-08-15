@@ -1,6 +1,6 @@
 # Flask Jinja Tutorial
 
-![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
+![Python](https://img.shields.io/badge/Python-v3.8-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
 ![Flask](https://img.shields.io/badge/Flask-v1.1.1-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=4c566a&colorB=a3be8c&logo=GitHub)
 [![GitHub Issues](https://img.shields.io/github/issues/hackersandslackers/flask-jinja-tutorial.svg?style=flat-square&colorA=4c566a&logo=GitHub&colorB=ebcb8b)](https://github.com/hackersandslackers/flask-jinja-tutorial/issues)
@@ -11,19 +11,20 @@
 
 Source code for the accompanying tutorial found here: https://hackersandslackers.com/flask-page-templates-jinja/
 
-## Getting Started
+## Installation
 
-Installation is recommended with Poetry:
+**Installation via `requirements.txt`**:
 
 ```shell
 $ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
 $ cd flask-jinja-tutorial
-$ poetry shell
-$ poetry install
-$ poetry run
+$ python3 -m venv myenv
+$ source myenv/bin/activate
+$ pip3 install -r requirements.txt
+$ flask run
 ```
 
-With Pipenv:
+**Installation via [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/)**:
 
 ```shell
 $ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
@@ -33,13 +34,14 @@ $ pipenv update
 $ flask run
 ```
 
-Alternatively, try installing via `setup.py`:
+**Installation via [Poetry](https://python-poetry.org/)**:
 
 ```shell
 $ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
 $ cd flask-jinja-tutorial
-$ python3 setup.py install
-$ flask run
+$ poetry shell
+$ poetry update
+$ poetry run
 ```
 -----
 
