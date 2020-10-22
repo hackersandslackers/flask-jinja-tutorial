@@ -13,36 +13,13 @@ Source code for the accompanying tutorial found here: https://hackersandslackers
 
 ## Installation
 
-**Installation via `requirements.txt`**:
+Get up and running with `make deploy`:
 
 ```shell
-$ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
-$ cd flask-jinja-tutorial
-$ python3 -m venv myenv
-$ source myenv/bin/activate
-$ pip3 install -r requirements.txt
-$ flask run
-```
-
-**Installation via [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/)**:
-
-```shell
-$ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
-$ cd flask-jinja-tutorial
-$ pipenv shell
-$ pipenv update
-$ flask run
-```
-
-**Installation via [Poetry](https://python-poetry.org/)**:
-
-```shell
-$ git clone https://github.com/hackersandslackers/flask-jinja-tutorial.git
-$ cd flask-jinja-tutorial
-$ poetry shell
-$ poetry update
-$ poetry run
-```
+$ git clone https://github.com/hackersandslackers/flask-assets-tutorial.git
+$ cd flask-assets-tutorial
+$ make deploy
+``` 
 -----
 
 **Hackers and Slackers** tutorials are free of charge. If you found this tutorial helpful, a [small donation](https://www.buymeacoffee.com/hackersslackers) would be greatly appreciated to keep us in business. All proceeds go towards coffee, and all coffee goes towards more content.
