@@ -7,6 +7,6 @@ def create_app():
     app = Flask(__name__, template_folder="templates")
 
     with app.app_context():
-        from . import routes
+        from flask_jinja_tutorial import routes
 
         return app

@@ -134,6 +134,7 @@ __pycache__
 
 # PyCharm
 .idea
+.vscode
 
 # Virtual environment
 .venv/

@@ -12,7 +12,7 @@ def home():
         {"name": "Pics", "url": "https://example.com/3"},
     ]
     return render_template(
-        "home.html",
+        "home.jinja2",
         nav=nav,
         title="Jinja Demo Site",
         description="Smarter page templates with Flask & Jinja.",
